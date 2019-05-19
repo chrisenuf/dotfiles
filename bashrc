@@ -51,7 +51,7 @@ flaskup() {
 
 
 # COMMAND ALIASES
-alias ls="ls -F"
+alias ls="ls -FG"
 
 
 # LOAD TOOLS
