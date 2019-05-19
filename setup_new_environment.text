@@ -1,0 +1,14 @@
+set up user, keys, sudo, etc: http://www.crmarsh.com/aws/
+
+setup vim:
+- vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  - jellybeans: cd ~/.vim/bundle && git clone --branch v1.6 https://github.com/nanotech/jellybeans.vim.git
+  - swap directory: mkdir ~.vim/temp
+
+setup dotfiles:
+- get dotfiles directory, create symlinks, etc # TODO set up makefile to set up symlinks
+
+setup python:
+  easy install:sudo apt-get install python-setuptools python-dev build-essential
+  pip: sudo easy_install pip
+  virtualenv: sudo pip install --upgrade virtualenv
